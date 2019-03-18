@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+.content1{
+	float:left;
+	width: 120px;
+}
+.roompara{
+	font-size: 17px;
+	color: #6b6b6b;
+	line-height: 28px;
+	font-family: "微软雅黑";
+	margin: 2% 0;
+}
+
+.content2{
+	float:left;
+	width: 280px;
+	height: auto;
+}
+.content3{
+	margin:7px;
+	
+}
+.content4{
+	float:left;
+	width: 560px;
+	height: auto;
+}
+.hrstyle2{
+	margin-right:0;
+	width:83%;
+}
+.hrstyle{
+	margin-left:0;
+}
+.h2style{
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: 700;
+	color:#484848;
+	width: 60%;
+}
+.h6style{
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 500;
+	color:#484848;
+}
+.pingjia{
+	margin: 50px 50px;
+}
+.master{
+	margin: 50px 50px;
+}

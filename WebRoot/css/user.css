@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+.usermain{
+	height: 1000px;
+}
+.userleft{
+	float: left;
+}
+.userright{
+	float: right;
+	width: 55%;
+	height: auto;
+	margin-right: 150px;
+	margin-top: 20px;
+	font-family: 微软雅黑;
+}
+.xinxi{
+	margin-left: 150px;
+	border: 1px solid #dce0e0;
+	width: 223px;
+	height: auto;
+	font-family: 微软雅黑;
+}
+.xinxi-header{
+	
+	background-color: #edefed;
+	border-bottom: 1px solid #dce0e0;
+	color: #484848;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.xinxi-body{
+	
+}
+.xinxi-body1{
+	padding-left: 20px;
+    padding-top: 30px;
+}
+.username{
+	color: #484848;
+	width: 100%;
+    float: left;
+    font-size: 44px;
+    font-weight: normal;
+	margin-bottom: 15px;
+}
+.intime{
+	font-size: 16px;
+    font-weight: bold;
+	margin-bottom: 45px;
+}
+.usertext{
+	font-size: 14px;
+    line-height: 1.43;
+    color: #484848;
+	margin-bottom: 15px;
+}

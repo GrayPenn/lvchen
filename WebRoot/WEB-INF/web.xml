@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>XiangMu</display-name>
+
+	<servlet>
+		<servlet-name>RoomServlet</servlet-name>
+		<servlet-class>servlet.RoomServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>servlet.RegisterServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>HouseCheckServlet</servlet-name>
+		<servlet-class>servlet.HouseCheckServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>HouseListServlet</servlet-name>
+		<servlet-class>servlet.HouseListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>HostListServlet</servlet-name>
+		<servlet-class>servlet.HostListServlet</servlet-class>
+	</servlet>
+
+
+
+	<servlet>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<servlet-class>servlet.AdminLoginServlet</servlet-class>
+	</servlet>
+
+
+
+	<servlet>
+
+		<servlet-name>experienceServlet</servlet-name>
+		<servlet-class>servlet.experienceServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddCommentServlet</servlet-name>
+		<servlet-class>servlet.AddCommentServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddExperienceServlet</servlet-name>
+		<servlet-class>servlet.AddExperienceServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>PersonalDataServlet</servlet-name>
+		<servlet-class>servlet.PersonalDataServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModifyIconServlet</servlet-name>
+		<servlet-class>servlet.ModifyIconServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ToHostInfoServlet</servlet-name>
+		<servlet-class>servlet.ToHostInfoServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ToAddNewsServlet</servlet-name>
+		<servlet-class>servlet.ToAddNewsServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ModifyBaseServlet</servlet-name>
+		<servlet-class>servlet.ModifyBaseServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>EquipmentServlet</servlet-name>
+		<servlet-class>servlet.EquipmentServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ModifyPwdServlet</servlet-name>
+		<servlet-class>servlet.ModifyPwdServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Host2statuServlet</servlet-name>
+		<servlet-class>servlet.Host2statuServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ToindexServlet</servlet-name>
+		<servlet-class>servlet.ToindexServlet</servlet-class>
+	</servlet>
+
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>servlet.OrderServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>SendMessageServlet</servlet-name>
+    <servlet-class>servlet.SendMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginNameServlet</servlet-name>
+    <servlet-class>servlet.LoginNameServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RentalServlet</servlet-name>
+    <servlet-class>servlet.RentalServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CommentListServlet</servlet-name>
+    <servlet-class>servlet.CommentListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CheckPwdServlet</servlet-name>
+    <servlet-class>servlet.CheckPwdServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToDDexSerlet</servlet-name>
+    <servlet-class>servlet.ToDDexSerlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToorderSelect</servlet-name>
+    <servlet-class>servlet.ToorderSelect</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>OrderConfirmServlet</servlet-name>
+    <servlet-class>servlet.OrderConfirmServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ToSearchServlet</servlet-name>
+    <servlet-class>servlet.ToSearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ModifyCertificateServlet</servlet-name>
+    <servlet-class>servlet.ModifyCertificateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RefreshServlet</servlet-name>
+    <servlet-class>servlet.RefreshServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ToDelComment</servlet-name>
+    <servlet-class>servlet.ToDelComment</servlet-class>
+  </servlet>
+
+  <servlet>
+
+
+    <servlet-name>ToTopHouseServlet</servlet-name>
+    <servlet-class>servlet.ToTopHouseServlet</servlet-class>
+  </servlet>
+
+ 
+  <servlet>
+
+    <servlet-name>ToCommentEditServlet</servlet-name>
+    <servlet-class>servlet.ToCommentEditServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToHostServlet</servlet-name>
+    <servlet-class>servlet.ToHostServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TouploadroomServlet</servlet-name>
+    <servlet-class>servlet.TouploadroomServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>RoomServlet</servlet-name>
+		<url-pattern>/RoomServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>HouseCheckServlet</servlet-name>
+		<url-pattern>/HouseCheckServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>HouseListServlet</servlet-name>
+		<url-pattern>/HouseListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>HostListServlet</servlet-name>
+		<url-pattern>/HostListServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<url-pattern>/admin/AdminLoginServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>experienceServlet</servlet-name>
+		<url-pattern>/experienceServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCommentServlet</servlet-name>
+		<url-pattern>/AddCommentServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AddExperienceServlet</servlet-name>
+		<url-pattern>/AddExperienceServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>PersonalDataServlet</servlet-name>
+		<url-pattern>/PersonalDataServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyIconServlet</servlet-name>
+		<url-pattern>/ModifyIconServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ToHostInfoServlet</servlet-name>
+		<url-pattern>/ToHostInfoServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ToAddNewsServlet</servlet-name>
+		<url-pattern>/ToAddNewsServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ModifyBaseServlet</servlet-name>
+		<url-pattern>/ModifyBaseServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Host2statuServlet</servlet-name>
+		<url-pattern>/Host2statuServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>EquipmentServlet</servlet-name>
+		<url-pattern>/EquipmentServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ModifyPwdServlet</servlet-name>
+		<url-pattern>/ModifyPwdServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>ToindexServlet</servlet-name>
+		<url-pattern>/ToindexServlet</url-pattern>
+	</servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>SendMessageServlet</servlet-name>
+    <url-pattern>/SendMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginNameServlet</servlet-name>
+    <url-pattern>/LoginNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RentalServlet</servlet-name>
+    <url-pattern>/RentalServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CommentListServlet</servlet-name>
+    <url-pattern>/admin/CommentListServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CheckPwdServlet</servlet-name>
+    <url-pattern>/CheckPwdServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ToDDexSerlet</servlet-name>
+    <url-pattern>/ToDDexSerlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToorderSelect</servlet-name>
+    <url-pattern>/ToorderSelect</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderConfirmServlet</servlet-name>
+    <url-pattern>/OrderConfirmServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ToSearchServlet</servlet-name>
+    <url-pattern>/ToSearchServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ModifyCertificateServlet</servlet-name>
+    <url-pattern>/ModifyCertificateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefreshServlet</servlet-name>
+    <url-pattern>/RefreshServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToDelComment</servlet-name>
+    <url-pattern>/admin/ToDelComment</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+
+    <servlet-name>ToTopHouseServlet</servlet-name>
+    <url-pattern>/ToTopHouseServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>TouploadroomServlet</servlet-name>
+    <url-pattern>/TouploadroomServlet</url-pattern>
+  </servlet-mapping>
+  
+
+
+  <servlet-mapping>
+
+    <servlet-name>ToCommentEditServlet</servlet-name>
+    <url-pattern>/admin/ToCommentEditServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+
+    <servlet-name>ToHostServlet</servlet-name>
+    <url-pattern>/ToHostServlet</url-pattern>
+  </servlet-mapping>
+
+
+  
+
+
+
+
+	<welcome-file-list>
+		<welcome-file>ToindexServlet</welcome-file>
+	</welcome-file-list>
+</web-app>

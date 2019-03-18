@@ -1,0 +1,20 @@
+package dao;
+
+import java.util.List;
+
+import entity.User;
+
+public interface HostDao {
+
+	public List<User> HostList(int uid,int hid);//查询所有房东信息。用户ID和房东id
+	
+	 public	User HostInfo(int uid);//查询房东信息
+	 
+	 public int getHostCount();//获取总的用户数
+	 
+	 public List<User> getHostByPage(int page,int size);//分页功能实现
+
+
+
+	 
+}
